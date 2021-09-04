@@ -2,13 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  const x = process.env.REACT_APP_TEST;
+  const x = process.env.REACT_APP_ENV_FROM;
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          env file dfdfsdfsdfdsfsdfsdfsdfsd {x}
+          env file ======= {x}
           save to reload.
         </p>
         <a
